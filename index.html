@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio webpage</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Raleway" rel="stylesheet">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">EINYLUNE</a>
+  <a href="about.html">ABOUT</a>
+  <a href="portfolio.html">PORTFOLIO</a>
+  <a href="javascript:void(0);" style="font-size:38px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="container">
+    <nav class="nav">NAVIGATION</nav>
+    <main class="main">
+        <div class="tablet"><a href="portfolio.html"><img src="tablet.png" class="watch" width="px"></a><p1>CLICK THE TABLET TO SEE THE PORTFOLIO.</p1></div>
+    <a href="about.html"><div id="button"><div id="s_panel">ABOUT</div></div></a>
+    <a href="portfolio.html"><div id="button2"><div id="a_panel">PORTFOLIO</div></div></a>
+    <a href="index.html"><div id="button4"> <div id="c_panel">HOME</div></div></a>
+    </main>
+    <footer>JEVGENIA ARTJUHHINA 2018</footer>
+    </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+
